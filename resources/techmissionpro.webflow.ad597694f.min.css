@@ -3046,10 +3046,14 @@ p {
     font-weight: 400;
     letter-spacing: 4px
 }
+.div-block-6:nth-child(2n) {
+    background-color: grey;
+    color: blue;
+}
 
 .text-block-5 {
     font-family: Montserrat, sans-serif;
-    color: #303030
+
 }
 
 .div-block-5 {
@@ -3084,7 +3088,11 @@ p {
     background-color: #fff;
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
 }
-
+.emoji {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
 .div-block-7 {
     max-width: 260px
 }
@@ -3539,7 +3547,12 @@ p {
     background-color: #fff;
     box-shadow: 1px 1px 20px 0 #dce9ff
 }
-
+.calc-input{
+    background-color: #70ccaa;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
 .div-block-27.true {
     max-width: 458px
 }
@@ -12926,6 +12939,7 @@ p {
         max-width: 263px;
         margin-bottom: 25px
     }
+
 
     .div-block-8 {
         -webkit-box-pack: justify;
