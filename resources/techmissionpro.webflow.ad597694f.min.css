@@ -3538,15 +3538,28 @@ p {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    max-width: 560px;
-    padding: 20px;
+    max-width: 460px;
+    padding: 10px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #fff;
     box-shadow: 1px 1px 20px 0 #dce9ff
+}
+.calc-opt{
+    width: 50px;
+    background-color: #f3e280f5;
+}
+.calc-result{
+border-width: 5px;
+border-color: #00ff0b;
+    }
+
+.calc-opt:hover{
+    background-color: #e4c411b0;
+    border: none;
 }
 .calc-input{
     background-color: #70ccaa;
