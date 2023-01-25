@@ -3193,17 +3193,14 @@ p {
     align-items: flex-start;
     border-radius: 8px;
     background-color: #f7f7f7;
-    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
-    flex-direction: row-reverse;
-
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
 }
 
 .text-block-9 {
     font-family: Montserrat, sans-serif;
     color: #303030;
     font-size: 16px;
-    line-height: 28px;
-    padding-left: 15px;
+    line-height: 28px
 }
 
 .div-block-13 {
@@ -20370,14 +20367,11 @@ p {
     }
 
     .div-block-12 {
-              width: 100%;
-
-        
+        width: 100%
     }
 
     .text-block-9 {
-        text-align: left;
-
+        text-align: left
     }
 
     .div-block-14 {
